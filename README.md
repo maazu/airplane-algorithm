@@ -19,7 +19,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Seat Number Assignment 
+## Seating Plan
 
 The code for the seat assignment can be found in `src/component/SeatingMap` implementation of seat assignment based on the following input and seating rules:
 
