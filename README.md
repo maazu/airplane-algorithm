@@ -41,3 +41,4 @@ The code for the seat assignment logic can be found in `src/logic/index.js` impl
 ### Program output
 
 <img width="848" alt="image" src="https://user-images.githubusercontent.com/35654937/216142532-6f640352-5854-40eb-9bb3-7216ddb2d085.png">
+
