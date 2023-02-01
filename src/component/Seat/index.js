@@ -1,10 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import styles from '../Plane/Plane.module.css';
+import { aisleSeatColor, windowSeatColor, middleSeatColor } from '@/constant';
 
 function evaluteSeatColor(seatCode) {
-  const aisleSeatColor = '#6194c9';
-  const windowSeatColor = '#acc46c';
-  const middleSeatColor = '#cb635b';
   let seatColor = '';
   if (seatCode == 'A') {
     seatColor = aisleSeatColor;

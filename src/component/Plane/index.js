@@ -2,15 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './Plane.module.css';
 import SeatingMap from '../SeatingMap';
 import SeatWithLabel from '../Seat';
-
-const defaultSeatingPlan = [
-  [3, 2],
-  [4, 3],
-  [2, 3],
-  [3, 4],
-];
-
-const defautlPassengerCount = 30;
+import { defaultSeatingPlan, defautlPassengerCount } from '@/constant';
 
 const Plane = () => {
   const [currentSeatingPlan, setCurrentSeatingPlan] =
